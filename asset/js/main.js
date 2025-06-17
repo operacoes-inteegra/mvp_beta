@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  const urlXLSX = 'asset/data/data.xlsx';
+  const urlXLSX = '/asset/data/data.xlsx';
 
   fetch(urlXLSX)
     .then(response => response.arrayBuffer())
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         html += `
           <div class="bloco">
           <h1>${name}</h1>
-          <img src="asset/img/${image}" alt="${name}">
+          <img src="/asset/img/${image}" alt="${name}">
           <p>${bio}</p>
         </div>
     `
