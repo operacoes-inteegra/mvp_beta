@@ -1,0 +1,13 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("config.css");
+
+@font-face {
+  font-family: 'myfont';
+  src: url('/asset/font/font.ttf') format('truetype');
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  font-family: myfont;
+}
